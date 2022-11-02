@@ -15,5 +15,7 @@ gcc sum1ton.c
 Code :
 
 ![inv-dir](Day1/c1.png)
+
 ![inv-dir](Day1/c2.png)
+
 ![inv-dir](Day1/c3.png)
