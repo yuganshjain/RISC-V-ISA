@@ -124,4 +124,23 @@ Write this code in vim
   ![inv-dir](Day2/l6.png)
 
 ## 3. Digital logic with TL-verilog and makerchip
-   
+
+![inv-dir](Day3/m1.png)
+
+1. Inverter
+
+![inv-dir](Day3/m3.png)
+
+2. Vector
+
+![inv-dir](Day3/m4.png)
+
+3. MUX
+
+![inv-dir](Day3/m5.png)
+![inv-dir](Day3/m6.png)
+
+### Combinational Calculator
+
+This circuit implements a calculator that can perform +,-,/,* on two input values.
+
