@@ -79,3 +79,24 @@ Press enter to run next instruction
 
 ![inv-dir](Day1/s7.png)
 
+### Signed and Unsigned numbers:
+Write this code in vim
+ ![inv-dir](Day1/u1.png)
+ 
+ Then run
+ ```
+ riscv64-unknown-elf-gcc -ofast -mabi=lp64 -march=rv64i -o unsigned.o unsigned.c
+ spike pk unsigned.o
+ ```
+  ![inv-dir](Day1/u2.png)
+  
+  ![inv-dir](Day1/u3.png)
+    
+  ![inv-dir](Day1/u4.png)
+  
+  ![inv-dir](Day1/u5.png)'
+
+  
+  
+ 
+ 
