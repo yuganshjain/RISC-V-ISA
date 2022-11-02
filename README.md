@@ -79,5 +79,3 @@ Press enter to run next instruction
 
 ![inv-dir](Day1/s7.png)
 
-
-![inv-dir](Day1/s6.png)
