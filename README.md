@@ -98,8 +98,10 @@ Write this code in vim
 
   ## 2. ABI and Basic verification Flow
   
- New Algorithm for sum 1 to N using ASM language
- Write these two codes
+ ### New Algorithm for sum 1 to N using ASM language
+ 
+ Write these two codes:
+ 
  ![inv-dir](Day2/l1.png)
  
  ![inv-dir](Day2/l2.png)
