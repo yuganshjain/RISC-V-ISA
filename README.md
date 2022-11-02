@@ -49,3 +49,35 @@ check number of instructions
 
 ### Spike simulation and Debug
 
+We are doing ./a.out for the gcc compiler to check the output.
+Same thing is done in RISK-V using spike
+```
+spike pk sum1ton.o
+```
+![inv-dir](Day1/s1.png)
+
+Open the objectdump if we want to debug using *riscv64-unknown-elf-objdump -d sum1ton.o | less*
+
+To open debugger
+```
+spike -d pk sum1ton.o
+```
+To run instructions from 0 to specific like 100b0 pc
+
+![inv-dir](Day1/s2.png)
+
+To view the contents of register
+![inv-dir](Day1/s3.png)
+
+Press enter to run next instruction
+
+![inv-dir](Day1/s4.png)
+
+![inv-dir](Day1/s5.png)
+
+![inv-dir](Day1/s6.png)
+
+![inv-dir](Day1/s7.png)
+
+
+![inv-dir](Day1/s6.png)
