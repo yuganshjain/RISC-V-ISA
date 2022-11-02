@@ -5,7 +5,7 @@ The basic RISC-V ISA was studied & a simple RISC-V core with base instruction se
 
 ## Labwork for RISC-V software toolchain
 
-Program to compute sum of 1 to N
+### Program to compute sum of 1 to N
 ```
 cd
 leafpad sum1ton.c
@@ -21,3 +21,28 @@ Output :
 ![inv-dir](Day1/c2.png)
 
 ![inv-dir](Day1/c3.png)
+
+### RISC-V gcc compile and Disassemble
+We will run the same sum1ton.c program using RISC-V simulator
+First we will compile it with RISC-V gcc compiler
+
+```
+riscv64-unknown-elf-gcc -o1 -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
+riscv64-unknown-elf-gcc -ofast -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
+```
+![inv-dir](Day1/o1.png)
+It will generate file sum1ton.o
+
+Now we will see the assembly code for the sum1ton.c file
+new terminal
+![inv-dir](Day1/o2.png)
+```
+riscv64-unknown-elf-objdump -d sum1ton.o
+riscv64-unknown-elf-objdump -d sum1ton.o | less
+/main
+```
+![inv-dir](Day1/o3.png)
+
+check number of instructions
+
+![inv-dir](Day1/o4.png)
