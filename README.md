@@ -106,3 +106,22 @@ Write this code in vim
  
  ![inv-dir](Day2/l2.png)
  
+ Review ASM function calls
+ 
+ Now for compilation and simulation run these.
+ 
+ ```
+ riscv64-unknown-elf-gcc -ofast -mabi=lp64 -march=rv64i -o 1to9_custom.o 1to9_custom.c load.S
+ spike pk 1to9_custom.o
+ riscv64-unknown-elf-objdump -d 1to9_custom.o | less 
+ ```
+  ![inv-dir](Day2/l3.png)
+  
+  ![inv-dir](Day2/l4.png)
+  
+  ![inv-dir](Day2/l5.png)
+  
+  ![inv-dir](Day2/l6.png)
+
+   
+   
