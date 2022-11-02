@@ -46,3 +46,6 @@ riscv64-unknown-elf-objdump -d sum1ton.o | less
 check number of instructions
 
 ![inv-dir](Day1/o4.png)
+
+### Spike simulation and Debug
+
