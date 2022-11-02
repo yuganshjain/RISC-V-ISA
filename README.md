@@ -6,3 +6,13 @@ The basic RISC-V ISA was studied & a simple RISC-V core with base instruction se
 ## Labwork for RISC-V software toolchain
 
 Program to compute sum of 1 to N
+```
+cd
+leafpad sum1ton.c
+gcc sum1ton.c
+```
+Code :
+```
+
+```
+![inv-dir](Day1/c1.png)
