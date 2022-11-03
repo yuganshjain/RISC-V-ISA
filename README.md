@@ -151,3 +151,6 @@ Free running counter:
 
 ![inv-dir](Day3/c1.png)
 
+Sequential logic :
+
+![inv-dir](Day3/c2.png)
