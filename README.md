@@ -151,6 +151,10 @@ Free running counter:
 
 ![inv-dir](Day3/c1.png)
 
-Sequential logic :
+## Sequential logic :
 
 ![inv-dir](Day3/c2.png)
+
+## Pipelined logic :
+
+![inv-dir](Day3/c3.png)
