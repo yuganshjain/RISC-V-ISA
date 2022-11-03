@@ -145,3 +145,9 @@ Write this code in vim
 This circuit implements a calculator that can perform +,-,/,* on two input values.
 
 ![inv-dir](Day3/m7.png)
+
+
+Free running counter:
+
+![inv-dir](Day3/c1.png)
+
