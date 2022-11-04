@@ -158,3 +158,6 @@ Free running counter:
 ## Pipelined logic :
 
 ![inv-dir](Day3/c3.png)
+
+## 4.Basic RISC-V CPU micro-architecture:
+Designing the basic processor of 3 stages fetch, decode and execute based on RISC-V ISA.
