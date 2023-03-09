@@ -168,21 +168,21 @@ Designing the basic processor of 3 stages fetch, decode and execute based on RIS
 ## [Program Counter]()
    The program counter (PC), commonly called the instruction pointer (IP) is a counter in a processor that indicates where a computer is in its program. PC jumps 4bytes at a time as each instruction is 32bits in RV32.
 
-![RISCV_CPU_PC_Implmentation](Images/Program_counter_imp.png)
+![inv-dir](Day4/pc.png)
 
 
 ## [Fetch]()
 
 *The instruction fetch unit (IFU) in a central processing unit (CPU) is responsible for organising program instructions to be fetched from memory, and executed, in an appropriate order. This makes the control logic of the core.*
 
-![CPU_Instruction_cycle_diagram](Images/Instruction_fetch.png)
+![inv-dir](Day4/fetch.png)
 
 
 ## [Decode]()
 
 *The decoding stage allows the CPU to determine what instruction is to be performed so that the CPU can tell how many operands it needs to fetch in order to perform the instruction. The opcode fetched from the memory is decoded for the next steps and moved to the appropriate registers. Below image shows hoe decode is determining the TYPE OF RISC V instructions set (Various types of Instructions in RV32 are I, R, S, J, U)*
 
-![Screenshot from 2020-08-30 03-52-41](Images/Instruction_decode.png)
+![inv-dir](Day4/decode.png)
 
 Waveform showcasing BLT signal (Branch if less than) Toggle on Branch Instruction decode. 
 
